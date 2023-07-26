@@ -1,14 +1,15 @@
 {
-  "name": "SmartPy Tutorial",
+  "name": "PyTezos",
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/grum-tez/features_template/octez-client-installer:1": {}
+    "ghcr.io/devcontainers/features/python:1": {}
+    // "ghcr.io/grum-tez/features_template/octez-client-installer:1": {}
     
     },
   "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh",
+  // "onCreateCommand": "chmod +x .devcontainer/onCreate.sh && .devcontainer/onCreate.sh",
   "forwardPorts": [3000, 20000]
 }
