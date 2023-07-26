@@ -10,6 +10,5 @@
     
     },
   "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh",
-  // "onCreateCommand": "chmod +x .devcontainer/onCreate.sh && .devcontainer/onCreate.sh",
   "forwardPorts": [3000, 20000]
 }
